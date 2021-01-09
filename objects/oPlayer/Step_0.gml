@@ -1,5 +1,5 @@
-var linearVelocity = MOVE_VELOCITY * (keyboard_check(ord("J")) - keyboard_check(ord("K")));
-var angularVelocity = TURN_ANGULAR_VELOCITY * (keyboard_check(ord("A")) - keyboard_check(ord("D")));
+var linearVelocity = MOVE_VELOCITY * (oInput.moveForward - oInput.moveBackward);
+var angularVelocity = TURN_ANGULAR_VELOCITY * (oInput.turnLeft - oInput.turnRight);
 
 speed = linearVelocity;
 direction += angularVelocity;
