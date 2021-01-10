@@ -18,4 +18,6 @@ alarm[0] = 1;
 // instead of that of the view here.
 surface_resize(application_surface, viewWidth * windowScale, viewHeight * windowScale);
 
+display_set_gui_size(viewWidth, viewHeight);
+
 window_set_fullscreen(true);

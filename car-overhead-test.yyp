@@ -1,7 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"oGui","path":"objects/oGui/oGui.yy",},"order":3,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":1,},
     {"id":{"name":"oInput","path":"objects/oInput/oInput.yy",},"order":2,},
+    {"id":{"name":"sDial","path":"sprites/sDial/sDial.yy",},"order":3,},
+    {"id":{"name":"sSpeedometer","path":"sprites/sSpeedometer/sSpeedometer.yy",},"order":2,},
     {"id":{"name":"sCar","path":"sprites/sCar/sCar.yy",},"order":0,},
     {"id":{"name":"sTmpBackground","path":"sprites/sTmpBackground/sTmpBackground.yy",},"order":1,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":0,},
